@@ -18,7 +18,7 @@ Spin up the main container and all it's children:
 docker-compose up -d
 ```
 
-## Modifications vis-a-vis the official Docker Compose file
+## Modifications vis-a-vis the officially suggested Docker Compose file
 
 The container is connected to a Docker network to be used in a reverse proxy environment (Nginx Proxy Manager). The internal Apache port and local IP have been adjusted accordingly. Also, a minor change has been made to point to where `docker.sock` is located on Arch Linux-based systems.
 
